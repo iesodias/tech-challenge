@@ -2,7 +2,8 @@
 
 # ☁️ Tech Challenge — Labs Práticos de Cloud
 
-![Labs](https://img.shields.io/badge/Labs-2-blue?style=for-the-badge)
+![Labs](https://img.shields.io/badge/Labs-5-blue?style=for-the-badge)
+![Quizzes](https://img.shields.io/badge/Quizzes-5-purple?style=for-the-badge)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=for-the-badge)
@@ -43,16 +44,20 @@ Cada lab segue um formato padronizado:
 ```
 labs/
 ├── aws/
-│   ├── basico/
-│   └── intermediario/
+│   └── basico/
+│       ├── 01-criando-s3-bucket/
+│       └── 02-criando-iam-user-e-grupo/
 └── azure/
     ├── basico/
     │   ├── 01-criando-resource-group/
     │   └── 02-criando-storage-account/
     └── intermediario/
+        └── 01-criando-virtual-machine/
 ```
 
-Organizado por cloud (`aws`/`azure`) e nível de dificuldade (`basico`/`intermediario`). Cada lab tem sua própria pasta com um `README.md` contendo o passo a passo completo.
+Organizado por cloud (`aws`/`azure`) e nível de dificuldade (`basico`/`intermediario`). Cada lab tem sua própria pasta com:
+- `README.md` — passo a passo completo do lab
+- `MATERIAL.md` — resumo teórico para estudo e revisão
 
 ---
 
@@ -60,8 +65,8 @@ Organizado por cloud (`aws`/`azure`) e nível de dificuldade (`basico`/`intermed
 
 | Provedor | Ferramenta | Status |
 |----------|------------|--------|
-| ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white) | Portal / `az cli` | ✅ Ativo |
-| ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white) | Console / `aws cli` | 🔜 Em breve |
+| ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white) | Portal Azure | ✅ Ativo |
+| ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white) | Console AWS | ✅ Ativo |
 
 ---
 
@@ -141,18 +146,33 @@ A Azure oferece **65+ serviços sempre gratuitos**, além de serviços gratuitos
 
 ## 📚 Labs Disponíveis
 
-### 🔷 Azure — Básico
+Cada lab inclui um **material de estudo** (📖) e um **quiz** (🧠) para fixar o conteúdo.
 
-| # | Lab | Nível | Ferramenta |
-|---|-----|-------|------------|
-| 01 | [Criar um Resource Group pelo Portal Azure](labs/azure/basico/01-criando-resource-group/README.md) | ![Básico](https://img.shields.io/badge/Básico-4CAF50?style=flat-square) | ![Portal](https://img.shields.io/badge/Portal-0078D4?style=flat-square&logo=microsoftazure&logoColor=white) |
-| 02 | [Criar uma Storage Account pelo Portal Azure](labs/azure/basico/02-criando-storage-account/README.md) | ![Básico](https://img.shields.io/badge/Básico-4CAF50?style=flat-square) | ![Portal](https://img.shields.io/badge/Portal-0078D4?style=flat-square&logo=microsoftazure&logoColor=white) |
+---
 
 ### ☁️ AWS — Básico
 
-| # | Lab | Nível | Ferramenta |
-|---|-----|-------|------------|
-| — | *Em breve* | — | — |
+| # | Lab | Material | Quiz |
+|---|-----|----------|------|
+| 01 | [Criar um Bucket S3 pelo Console AWS](labs/aws/basico/01-criando-s3-bucket/README.md) | [📖 Material](labs/aws/basico/01-criando-s3-bucket/MATERIAL.md) | [🧠 Quiz](.github/ISSUE_TEMPLATE/aws-quiz-basico-01-criando-s3-bucket.yml) |
+| 02 | [Criar um Usuário e Grupo IAM pelo Console AWS](labs/aws/basico/02-criando-iam-user-e-grupo/README.md) | [📖 Material](labs/aws/basico/02-criando-iam-user-e-grupo/MATERIAL.md) | [🧠 Quiz](.github/ISSUE_TEMPLATE/aws-quiz-basico-02-criando-iam-user-e-grupo.yml) |
+
+---
+
+### 🔷 Azure — Básico
+
+| # | Lab | Material | Quiz |
+|---|-----|----------|------|
+| 01 | [Criar um Resource Group pelo Portal Azure](labs/azure/basico/01-criando-resource-group/README.md) | [📖 Material](labs/azure/basico/01-criando-resource-group/MATERIAL.md) | [🧠 Quiz](.github/ISSUE_TEMPLATE/azure-quiz-basico-01-criando-resource-group.yml) |
+| 02 | [Criar uma Storage Account pelo Portal Azure](labs/azure/basico/02-criando-storage-account/README.md) | [📖 Material](labs/azure/basico/02-criando-storage-account/MATERIAL.md) | [🧠 Quiz](.github/ISSUE_TEMPLATE/azure-quiz-basico-02-criando-storage-account.yml) |
+
+---
+
+### 🔷 Azure — Intermediário
+
+| # | Lab | Material | Quiz |
+|---|-----|----------|------|
+| 01 | [Criar uma Virtual Machine pelo Portal Azure](labs/azure/intermediario/01-criando-virtual-machine/README.md) | [📖 Material](labs/azure/intermediario/01-criando-virtual-machine/MATERIAL.md) | [🧠 Quiz](.github/ISSUE_TEMPLATE/azure-quiz-intermediario-01-criando-virtual-machine.yml) |
 
 ---
 
