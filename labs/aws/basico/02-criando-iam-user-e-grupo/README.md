@@ -148,3 +148,26 @@ Para manter sua conta organizada, vamos excluir o usuário e o grupo criados nes
 > É importante excluir o usuário **antes** do grupo. Embora a AWS permita excluir o grupo mesmo com membros, a boa prática é remover os vínculos primeiro. O IAM é um serviço gratuito, então não há custos associados a usuários e grupos — mas manter recursos de lab ativos pode gerar confusão e riscos de segurança. **Nunca deixe usuários com permissões administrativas sem uso ativo na sua conta.**
 
 ---
+
+## 🎉 Finalizou o lab? Compartilhe!
+
+Use o template abaixo para postar no LinkedIn — basta copiar, ajustar o que quiser e publicar!
+
+```
+☁️ Mais um lab concluído!
+
+Hoje aprendi a criar um Usuário e Grupo IAM com permissão de administrador usando o Console AWS.
+
+✅ O que pratiquei:
+• Criar um Grupo IAM com a política AdministratorAccess e adicionar um usuário a ele
+• Configurar acesso ao Console AWS para um usuário IAM sem usar o root
+• Entender por que nunca usar o usuário root no dia a dia e limpar os recursos ao final
+
+📖 Lab completo e gratuito:
+https://github.com/iesodias/tech-challenge/blob/main/labs/aws/basico/02-criando-iam-user-e-grupo/README.md
+
+🗂️ Repositório com todos os labs:
+https://github.com/iesodias/tech-challenge
+
+#AWS #Cloud #CloudComputing #TechChallenge #AprendizadoContínuo #DevOps
+```

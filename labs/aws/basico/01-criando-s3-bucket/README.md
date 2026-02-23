@@ -122,3 +122,26 @@ Para evitar qualquer custo e manter sua conta organizada, vamos excluir o objeto
 > O S3 só permite excluir um bucket que esteja **completamente vazio** — por isso excluímos o objeto primeiro. A AWS exige que você digite `permanently delete` (para objetos) e o nome do bucket (para o bucket) como confirmação para evitar exclusões acidentais. O Bucket S3 do Free Tier oferece **5 GB de armazenamento gratuito**, mas é sempre boa prática limpar recursos de lab para evitar surpresas na fatura.
 
 ---
+
+## 🎉 Finalizou o lab? Compartilhe!
+
+Use o template abaixo para postar no LinkedIn — basta copiar, ajustar o que quiser e publicar!
+
+```
+☁️ Mais um lab concluído!
+
+Hoje aprendi a criar um Bucket S3 e fazer upload de arquivos usando o Console AWS.
+
+✅ O que pratiquei:
+• Criar um Bucket S3 com nome globalmente único na região sa-east-1
+• Fazer upload e download de objetos diretamente pelo Console AWS
+• Manter o Block Public Access habilitado e limpar os recursos ao final
+
+📖 Lab completo e gratuito:
+https://github.com/iesodias/tech-challenge/blob/main/labs/aws/basico/01-criando-s3-bucket/README.md
+
+🗂️ Repositório com todos os labs:
+https://github.com/iesodias/tech-challenge
+
+#AWS #Cloud #CloudComputing #TechChallenge #AprendizadoContínuo #DevOps
+```

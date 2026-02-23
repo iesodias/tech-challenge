@@ -181,3 +181,26 @@ Para evitar custos, vamos excluir o **Resource Group inteiro**, que removerá au
 > **Excluir o Resource Group é a forma mais segura e completa de limpar todos os recursos de um lab.** Ao excluir o grupo `lab-vm-rg`, o Azure remove automaticamente: a VM (`lab-vm-01`), o disco do SO, a placa de rede (NIC), o IP público, a rede virtual (VNet) e o grupo de segurança de rede (NSG). Isso evita que recursos órfãos continuem gerando custos. A exclusão pode levar de 2 a 5 minutos. O Azure pede a digitação do nome como confirmação para evitar exclusões acidentais.
 
 ---
+
+## 🎉 Finalizou o lab? Compartilhe!
+
+Use o template abaixo para postar no LinkedIn — basta copiar, ajustar o que quiser e publicar!
+
+```
+🔷 Mais um lab concluído!
+
+Hoje aprendi a criar uma Virtual Machine Linux usando o Portal Azure.
+
+✅ O que pratiquei:
+• Provisionar uma VM Ubuntu com disco gerenciado e configurar usuário e chave SSH
+• Entender as opções de tamanho, região e configuração de rede de uma VM no Azure
+• Excluir a VM e todos os recursos associados ao final para evitar custos
+
+📖 Lab completo e gratuito:
+https://github.com/iesodias/tech-challenge/blob/main/labs/azure/intermediario/01-criando-virtual-machine/README.md
+
+🗂️ Repositório com todos os labs:
+https://github.com/iesodias/tech-challenge
+
+#Azure #Cloud #CloudComputing #TechChallenge #AprendizadoContínuo #DevOps
+```

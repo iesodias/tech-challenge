@@ -113,3 +113,26 @@ Para evitar qualquer custo ou manter sua assinatura organizada, vamos excluir o 
 > Ao excluir um Resource Group, **todos os recursos dentro dele são excluídos automaticamente**. Por isso, Resource Groups são muito úteis para labs e ambientes temporários — basta excluir o grupo para limpar tudo de uma vez. O Azure pede que você digite o nome do grupo como confirmação para evitar exclusões acidentais. A exclusão pode levar alguns minutos para ser concluída.
 
 ---
+
+## 🎉 Finalizou o lab? Compartilhe!
+
+Use o template abaixo para postar no LinkedIn — basta copiar, ajustar o que quiser e publicar!
+
+```
+🔷 Mais um lab concluído!
+
+Hoje aprendi a criar um Resource Group usando o Portal Azure.
+
+✅ O que pratiquei:
+• Criar um Resource Group na região Brazil South e adicionar tags de organização
+• Entender que o Resource Group é o contêiner lógico fundamental do Azure
+• Excluir o Resource Group (e todos os recursos dentro dele) ao final do lab
+
+📖 Lab completo e gratuito:
+https://github.com/iesodias/tech-challenge/blob/main/labs/azure/basico/01-criando-resource-group/README.md
+
+🗂️ Repositório com todos os labs:
+https://github.com/iesodias/tech-challenge
+
+#Azure #Cloud #CloudComputing #TechChallenge #AprendizadoContínuo #DevOps
+```

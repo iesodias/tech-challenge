@@ -116,3 +116,26 @@ Para evitar custos desnecessários, vamos excluir a Storage Account criada:
 > A exclusão de uma Storage Account é **irreversível** — todos os dados armazenados (blobs, arquivos, filas e tabelas) serão **permanentemente removidos**. O Azure pede que você digite o nome do recurso como confirmação para evitar exclusões acidentais. Se a Storage Account estiver dentro de um Resource Group de lab que você também vai excluir, basta deletar o Resource Group inteiro — todos os recursos dentro dele serão removidos automaticamente (exclusão em cascata).
 
 ---
+
+## 🎉 Finalizou o lab? Compartilhe!
+
+Use o template abaixo para postar no LinkedIn — basta copiar, ajustar o que quiser e publicar!
+
+```
+🔷 Mais um lab concluído!
+
+Hoje aprendi a criar uma Storage Account e um Container de blobs usando o Portal Azure.
+
+✅ O que pratiquei:
+• Criar uma Storage Account com redundância LRS na região Brazil South
+• Criar um container privado e fazer upload de arquivos como blobs
+• Excluir todos os recursos ao final para evitar custos desnecessários
+
+📖 Lab completo e gratuito:
+https://github.com/iesodias/tech-challenge/blob/main/labs/azure/basico/02-criando-storage-account/README.md
+
+🗂️ Repositório com todos os labs:
+https://github.com/iesodias/tech-challenge
+
+#Azure #Cloud #CloudComputing #TechChallenge #AprendizadoContínuo #DevOps
+```

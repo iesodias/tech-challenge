@@ -178,67 +178,9 @@ Cada lab inclui um **material de estudo** (📖) e um **quiz** (🧠) para fixar
 
 ## 🎉 Finalizou um lab? Compartilhe!
 
-Terminou um lab? Mostre para a comunidade! Use os templates abaixo para postar no LinkedIn ou outras redes — basta copiar, preencher os `[ ]` e publicar.
+Terminou um lab? Mostre para a comunidade! Cada lab tem um **template de post pronto** no final do `README.md` — é só copiar, ajustar se quiser e publicar.
 
 > Compartilhar o que você aprende acelera seu aprendizado e ajuda outras pessoas a encontrar o conteúdo. 🚀
-
----
-
-### 🔷 Template — Lab Azure
-
-```
-🔷 Mais um lab concluído!
-
-Hoje aprendi [o que você fez, ex: a criar uma Storage Account] no Azure usando o Portal Azure.
-
-✅ O que pratiquei:
-• [passo ou conceito que mais te marcou]
-• [outro ponto relevante]
-• [boas práticas aplicadas]
-
-📖 Lab completo e gratuito:
-[URL do lab - ex: https://github.com/iesodias/tech-challenge/blob/main/labs/azure/basico/02-criando-storage-account/README.md]
-
-🗂️ Repositório com todos os labs:
-https://github.com/iesodias/tech-challenge
-
-#Azure #Cloud #CloudComputing #TechChallenge #AprendizadoContínuo #DevOps
-```
-
----
-
-### ☁️ Template — Lab AWS
-
-```
-☁️ Mais um lab concluído!
-
-Hoje aprendi [o que você fez, ex: a criar um Bucket S3] na AWS usando o Console AWS.
-
-✅ O que pratiquei:
-• [passo ou conceito que mais te marcou]
-• [outro ponto relevante]
-• [boas práticas aplicadas]
-
-📖 Lab completo e gratuito:
-[URL do lab - ex: https://github.com/iesodias/tech-challenge/blob/main/labs/aws/basico/01-criando-s3-bucket/README.md]
-
-🗂️ Repositório com todos os labs:
-https://github.com/iesodias/tech-challenge
-
-#AWS #Cloud #CloudComputing #TechChallenge #AprendizadoContínuo #DevOps
-```
-
----
-
-### 🔗 Links diretos dos labs para o seu post
-
-| Lab | Link direto |
-|-----|-------------|
-| AWS · S3 Bucket | `https://github.com/iesodias/tech-challenge/blob/main/labs/aws/basico/01-criando-s3-bucket/README.md` |
-| AWS · IAM User e Grupo | `https://github.com/iesodias/tech-challenge/blob/main/labs/aws/basico/02-criando-iam-user-e-grupo/README.md` |
-| Azure · Resource Group | `https://github.com/iesodias/tech-challenge/blob/main/labs/azure/basico/01-criando-resource-group/README.md` |
-| Azure · Storage Account | `https://github.com/iesodias/tech-challenge/blob/main/labs/azure/basico/02-criando-storage-account/README.md` |
-| Azure · Virtual Machine | `https://github.com/iesodias/tech-challenge/blob/main/labs/azure/intermediario/01-criando-virtual-machine/README.md` |
 
 ---
 
