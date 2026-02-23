@@ -1,6 +1,6 @@
 <div align="center">
 
-# ☁️ Tech Challenge — Labs Práticos de Cloud
+# Tech Challenge — Labs Práticos de Cloud
 
 ![Labs](https://img.shields.io/badge/Labs-5-blue?style=for-the-badge)
 ![Quizzes](https://img.shields.io/badge/Quizzes-5-purple?style=for-the-badge)
@@ -12,13 +12,13 @@
 
 **Aprenda cloud na prática com labs curtos, diretos e mão na massa.**
 
-[Começar Agora](#-como-começar) · [Ver Labs](#-labs-disponíveis) · [Contribuir](#-contribuindo)
+[Começar Agora](#como-começar) · [Ver Labs](#labs-disponíveis) · [Contribuir](#contribuindo)
 
 </div>
 
 ---
 
-## 🎯 Objetivo
+## Objetivo
 
 Ajudar pessoas que querem entrar na área de tecnologia a dar os primeiros passos com cloud computing. Aqui você vai encontrar labs passo a passo, do básico ao intermediário.
 
@@ -26,20 +26,20 @@ Ajudar pessoas que querem entrar na área de tecnologia a dar os primeiros passo
 
 ---
 
-## ⚙️ Como funciona
+## Como funciona
 
 Cada lab segue um formato padronizado:
 
 | | Regra |
 |---|---|
-| 📝 | **5 a 10 passos** no máximo |
-| 🎯 | **Uma ação por passo** com explicação detalhada |
-| ✅ | **Pré-requisitos** claros no início |
-| 🧹 | **Limpeza** no final para não gerar custos |
+| | **5 a 10 passos** no máximo |
+| | **Uma ação por passo** com explicação detalhada |
+| | **Pré-requisitos** claros no início |
+| | **Limpeza** no final para não gerar custos |
 
 ---
 
-## 📁 Estrutura
+## Estrutura
 
 ```
 labs/
@@ -61,23 +61,23 @@ Organizado por cloud (`aws`/`azure`) e nível de dificuldade (`basico`/`intermed
 
 ---
 
-## ☁️ Clouds Suportadas
+## Clouds Suportadas
 
 | Provedor | Ferramenta | Status |
 |----------|------------|--------|
-| ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white) | Portal Azure | ✅ Ativo |
-| ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white) | Console AWS | ✅ Ativo |
+| ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white) | Portal Azure | Ativo |
+| ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white) | Console AWS | Ativo |
 
 ---
 
-## 🚀 Como começar
+## Como começar
 
 ### 1. Crie sua conta gratuita na cloud
 
 Antes de tudo, você precisa de uma conta gratuita. Escolha AWS, Azure ou ambas:
 
 <details>
-<summary><strong>☁️ Conta Gratuita AWS</strong></summary>
+<summary><strong>Conta Gratuita AWS</strong></summary>
 
 <br>
 
@@ -100,7 +100,7 @@ A AWS oferece o **Free Plan** com até $200 USD em créditos e 6 meses de uso gr
 8. Aguarde a ativação (geralmente leva minutos, pode levar até 24h)
 9. Você receberá um e-mail de confirmação quando a conta estiver ativa
 
-> **💡 Dica:** Use um e-mail que você não vai perder acesso. Ative MFA (autenticação multifator) na conta root assim que possível.
+> **Dica:** Use um e-mail que você não vai perder acesso. Ative MFA (autenticação multifator) na conta root assim que possível.
 
 **Links úteis:**
 - [Página do Free Tier](https://aws.amazon.com/free/)
@@ -110,7 +110,7 @@ A AWS oferece o **Free Plan** com até $200 USD em créditos e 6 meses de uso gr
 </details>
 
 <details>
-<summary><strong>🔷 Conta Gratuita Azure</strong></summary>
+<summary><strong>Conta Gratuita Azure</strong></summary>
 
 <br>
 
@@ -132,7 +132,7 @@ A Azure oferece **65+ serviços sempre gratuitos**, além de serviços gratuitos
 7. Aceite os termos e condições
 8. Pronto! Você terá acesso ao portal [https://portal.azure.com](https://portal.azure.com)
 
-> **💡 Dica:** Estudantes podem usar o [Azure for Students](https://azure.microsoft.com/en-us/free/students/) com $100 USD em créditos sem precisar de cartão de crédito — basta um e-mail acadêmico.
+> **Dica:** Estudantes podem usar o [Azure for Students](https://azure.microsoft.com/en-us/free/students/) com $100 USD em créditos sem precisar de cartão de crédito — basta um e-mail acadêmico.
 
 **Links úteis:**
 - [Serviços gratuitos do Azure](https://azure.microsoft.com/en-us/pricing/free-services)
@@ -144,47 +144,47 @@ A Azure oferece **65+ serviços sempre gratuitos**, além de serviços gratuitos
 
 ---
 
-## 📚 Labs Disponíveis
+## Labs Disponíveis
 
-Cada lab inclui um **material de estudo** (📖) e um **quiz** (🧠) para fixar o conteúdo.
+Cada lab inclui um **material de estudo** e um **quiz** para fixar o conteúdo.
 
 ---
 
-### ☁️ AWS — Básico
+### AWS — Básico
 
 | # | Lab | Material | Quiz |
 |---|-----|----------|------|
-| 01 | [Criar um Bucket S3 pelo Console AWS](labs/aws/basico/01-criando-s3-bucket/README.md) | [📖 Material](labs/aws/basico/01-criando-s3-bucket/MATERIAL.md) | [🧠 Quiz](.github/ISSUE_TEMPLATE/aws-quiz-basico-01-criando-s3-bucket.yml) |
-| 02 | [Criar um Usuário e Grupo IAM pelo Console AWS](labs/aws/basico/02-criando-iam-user-e-grupo/README.md) | [📖 Material](labs/aws/basico/02-criando-iam-user-e-grupo/MATERIAL.md) | [🧠 Quiz](.github/ISSUE_TEMPLATE/aws-quiz-basico-02-criando-iam-user-e-grupo.yml) |
+| 01 | [Criar um Bucket S3 pelo Console AWS](labs/aws/basico/01-criando-s3-bucket/README.md) | [Material](labs/aws/basico/01-criando-s3-bucket/MATERIAL.md) | [Quiz](.github/ISSUE_TEMPLATE/aws-quiz-basico-01-criando-s3-bucket.yml) |
+| 02 | [Criar um Usuário e Grupo IAM pelo Console AWS](labs/aws/basico/02-criando-iam-user-e-grupo/README.md) | [Material](labs/aws/basico/02-criando-iam-user-e-grupo/MATERIAL.md) | [Quiz](.github/ISSUE_TEMPLATE/aws-quiz-basico-02-criando-iam-user-e-grupo.yml) |
 
 ---
 
-### 🔷 Azure — Básico
+### Azure — Básico
 
 | # | Lab | Material | Quiz |
 |---|-----|----------|------|
-| 01 | [Criar um Resource Group pelo Portal Azure](labs/azure/basico/01-criando-resource-group/README.md) | [📖 Material](labs/azure/basico/01-criando-resource-group/MATERIAL.md) | [🧠 Quiz](.github/ISSUE_TEMPLATE/azure-quiz-basico-01-criando-resource-group.yml) |
-| 02 | [Criar uma Storage Account pelo Portal Azure](labs/azure/basico/02-criando-storage-account/README.md) | [📖 Material](labs/azure/basico/02-criando-storage-account/MATERIAL.md) | [🧠 Quiz](.github/ISSUE_TEMPLATE/azure-quiz-basico-02-criando-storage-account.yml) |
+| 01 | [Criar um Resource Group pelo Portal Azure](labs/azure/basico/01-criando-resource-group/README.md) | [Material](labs/azure/basico/01-criando-resource-group/MATERIAL.md) | [Quiz](.github/ISSUE_TEMPLATE/azure-quiz-basico-01-criando-resource-group.yml) |
+| 02 | [Criar uma Storage Account pelo Portal Azure](labs/azure/basico/02-criando-storage-account/README.md) | [Material](labs/azure/basico/02-criando-storage-account/MATERIAL.md) | [Quiz](.github/ISSUE_TEMPLATE/azure-quiz-basico-02-criando-storage-account.yml) |
 
 ---
 
-### 🔷 Azure — Intermediário
+### Azure — Intermediário
 
 | # | Lab | Material | Quiz |
 |---|-----|----------|------|
-| 01 | [Criar uma Virtual Machine pelo Portal Azure](labs/azure/intermediario/01-criando-virtual-machine/README.md) | [📖 Material](labs/azure/intermediario/01-criando-virtual-machine/MATERIAL.md) | [🧠 Quiz](.github/ISSUE_TEMPLATE/azure-quiz-intermediario-01-criando-virtual-machine.yml) |
+| 01 | [Criar uma Virtual Machine pelo Portal Azure](labs/azure/intermediario/01-criando-virtual-machine/README.md) | [Material](labs/azure/intermediario/01-criando-virtual-machine/MATERIAL.md) | [Quiz](.github/ISSUE_TEMPLATE/azure-quiz-intermediario-01-criando-virtual-machine.yml) |
 
 ---
 
-## 🎉 Finalizou um lab? Compartilhe!
+## Finalizou um lab? Compartilhe!
 
 Terminou um lab? Mostre para a comunidade! Cada lab tem um **template de post pronto** no final do `README.md` — é só copiar, ajustar se quiser e publicar.
 
-> Compartilhar o que você aprende acelera seu aprendizado e ajuda outras pessoas a encontrar o conteúdo. 🚀
+> Compartilhar o que você aprende acelera seu aprendizado e ajuda outras pessoas a encontrar o conteúdo.
 
 ---
 
-## 🤝 Contribuindo
+## Contribuindo
 
 Quer sugerir um novo lab ou corrigir algo?
 
@@ -198,7 +198,7 @@ Ou simplesmente abra uma [issue](../../issues) com sua sugestão.
 
 ---
 
-## 📄 Licença
+## Licença
 
 Este projeto é open source e está disponível sob a licença [MIT](LICENSE).
 
@@ -206,6 +206,6 @@ Este projeto é open source e está disponível sob a licença [MIT](LICENSE).
 
 <div align="center">
 
-Feito com ❤️ para a comunidade de cloud
+Feito para a comunidade de cloud
 
 </div>
