@@ -1,0 +1,94 @@
+name: "Quiz - Lab 01: Criar um Bucket S3 pelo Console AWS"
+description: "Responda às perguntas sobre o lab: Criar um Bucket S3 pelo Console AWS"
+title: "[Quiz] Lab 01 - Bucket S3"
+labels: ["quiz", "aws-basico"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Quiz — Criar um Bucket S3 pelo Console AWS
+
+        Responda às perguntas abaixo com base no que você aprendeu no lab.
+        📖 [Acesse o lab aqui](labs/aws/basico/01-criando-s3-bucket/README.md)
+
+  - type: input
+    id: nome-aluno
+    attributes:
+      label: Seu nome (ou usuário GitHub)
+      placeholder: "Ex: João Silva"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: pergunta-1
+    attributes:
+      label: "1. O que é um Bucket no Amazon S3?"
+      options:
+        - "Um tipo de máquina virtual da AWS"
+        - "Um serviço de banco de dados relacional"
+        - "Um contêiner onde você armazena objetos (arquivos)"
+        - "Uma ferramenta de monitoramento de logs"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: pergunta-2
+    attributes:
+      label: "2. Qual configuração deve ser mantida habilitada para impedir que os objetos do bucket fiquem acessíveis publicamente?"
+      options:
+        - "Bucket Versioning"
+        - "Default encryption (SSE-S3)"
+        - "ACLs disabled"
+        - "Block all public access"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: pergunta-3
+    attributes:
+      label: "3. Por que o nome de um Bucket S3 deve ser globalmente único?"
+      options:
+        - "Porque o nome é usado como parte da URL de acesso e nenhum bucket em toda a AWS pode ter o mesmo nome"
+        - "Porque a AWS limita o número de buckets por conta"
+        - "Porque os nomes são vinculados a uma região específica"
+        - "Porque a AWS usa o nome como chave de criptografia"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: pergunta-4
+    attributes:
+      label: "4. O que é necessário fazer antes de excluir um Bucket S3 pelo console?"
+      options:
+        - "Desabilitar a criptografia do bucket"
+        - "Alterar a região do bucket"
+        - "Remover todos os objetos do bucket (esvaziá-lo)"
+        - "Desativar o Block Public Access"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: pergunta-5
+    attributes:
+      label: "5. Qual tipo de criptografia padrão é aplicada automaticamente aos objetos armazenados no S3?"
+      options:
+        - "SSE-C (criptografia com chave do cliente)"
+        - "Nenhuma criptografia é aplicada por padrão"
+        - "SSE-KMS (criptografia com AWS KMS)"
+        - "SSE-S3 (criptografia gerenciada pela AWS)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: pergunta-6
+    attributes:
+      label: "6. Explique com suas palavras por que é importante sempre realizar o passo de limpeza (exclusão dos recursos) ao final de um lab."
+      placeholder: "Explique com suas palavras..."
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        > **Dica:** Revise o lab antes de responder. O objetivo é fixar o aprendizado, não decorar comandos.

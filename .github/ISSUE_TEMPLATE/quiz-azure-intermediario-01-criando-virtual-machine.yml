@@ -1,0 +1,94 @@
+name: "Quiz - Lab 01: Criar uma Virtual Machine pelo Portal Azure"
+description: "Responda às perguntas sobre o lab: Criar uma Virtual Machine pelo Portal Azure"
+title: "[Quiz] Lab 01 - Virtual Machine"
+labels: ["quiz", "azure-intermediario"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Quiz — Criar uma Virtual Machine pelo Portal Azure
+
+        Responda às perguntas abaixo com base no que você aprendeu no lab.
+        📖 [Acesse o lab aqui](labs/azure/intermediario/01-criando-virtual-machine/README.md)
+
+  - type: input
+    id: nome-aluno
+    attributes:
+      label: Seu nome (ou usuário GitHub)
+      placeholder: "Ex: João Silva"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: pergunta-1
+    attributes:
+      label: "1. Qual imagem de sistema operacional foi utilizada para criar a VM neste lab?"
+      options:
+        - "Windows Server 2022 Datacenter"
+        - "Debian 12 - x64 Gen2"
+        - "Ubuntu Server 24.04 LTS - x64 Gen2"
+        - "Red Hat Enterprise Linux 9 - x64 Gen2"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: pergunta-2
+    attributes:
+      label: "2. Qual é a função do Network Security Group (NSG) associado à VM?"
+      options:
+        - "Gerenciar o armazenamento de disco da VM"
+        - "Distribuir o tráfego de rede entre múltiplas VMs"
+        - "Monitorar o consumo de CPU e memória da VM"
+        - "Funcionar como um firewall virtual, controlando o tráfego de entrada e saída"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: pergunta-3
+    attributes:
+      label: "3. Por que a opção 'Delete with VM' foi mantida marcada na aba de Discos?"
+      options:
+        - "Para aumentar a performance do disco SSD"
+        - "Para permitir a criação de snapshots automáticos"
+        - "Para que o disco seja excluído automaticamente ao deletar a VM, evitando custos com recursos órfãos"
+        - "Para habilitar a criptografia do disco do sistema operacional"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: pergunta-4
+    attributes:
+      label: "4. Qual é a forma recomendada no lab para limpar todos os recursos criados ao final?"
+      options:
+        - "Excluir apenas a VM pela página de Virtual Machines"
+        - "Desligar a VM e manter os recursos para uso futuro"
+        - "Remover manualmente cada recurso (disco, NIC, IP, VNet, NSG)"
+        - "Excluir o Resource Group inteiro (lab-vm-rg), removendo automaticamente todos os recursos associados"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: pergunta-5
+    attributes:
+      label: "5. Qual tamanho (Size) de VM foi selecionado neste lab e por quê?"
+      options:
+        - "Standard_D2s_v3 — oferece melhor performance para aplicações web"
+        - "Standard_B1s (1 vCPU, 1 GiB RAM) — é um dos tamanhos mais baratos, ideal para labs e testes leves"
+        - "Standard_E4s_v5 — otimizado para cargas de trabalho com uso intensivo de memória"
+        - "Standard_F2s_v2 — otimizado para cargas de trabalho com uso intensivo de CPU"
+    validations:
+      required: true
+
+  - type: textarea
+    id: pergunta-6
+    attributes:
+      label: "6. Explique por que criamos um Resource Group dedicado antes de criar a VM e quais recursos de rede o Azure cria automaticamente durante o processo."
+      placeholder: "Explique com suas palavras..."
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        > **Dica:** Revise o lab antes de responder. O objetivo é fixar o aprendizado, não decorar comandos.

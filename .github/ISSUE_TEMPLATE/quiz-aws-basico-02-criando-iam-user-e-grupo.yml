@@ -1,0 +1,82 @@
+name: "Quiz - Lab 02: Criar um Usuário e Grupo IAM pelo Console AWS"
+description: "Responda às perguntas sobre o lab: Criar um Usuário e Grupo IAM pelo Console AWS"
+title: "[Quiz] Lab 02 - IAM User e Grupo"
+labels: ["quiz", "aws-basico"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Quiz — Criar um Usuário e Grupo IAM pelo Console AWS
+
+        Responda às perguntas abaixo com base no que você aprendeu no lab.
+        📖 [Acesse o lab aqui](labs/aws/basico/02-criando-iam-user-e-grupo/README.md)
+
+  - type: input
+    id: nome-aluno
+    attributes:
+      label: Seu nome (ou usuário GitHub)
+      placeholder: "Ex: João Silva"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: pergunta-1
+    attributes:
+      label: "1. Por que a AWS recomenda NÃO usar o usuário root no dia a dia?"
+      options:
+        - "Porque o root tem acesso irrestrito, não pode ter permissões limitadas e representa um risco de segurança"
+        - "Porque o root não tem acesso ao Console AWS, apenas à CLI"
+        - "Porque a AWS cobra taxas adicionais pelo uso do usuário root"
+        - "Porque o root só permite criar recursos em uma única região"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: pergunta-2
+    attributes:
+      label: "2. Qual política gerenciada pela AWS foi anexada ao grupo Administradores neste lab?"
+      options:
+        - "PowerUserAccess"
+        - "AdministratorAccess"
+        - "ReadOnlyAccess"
+        - "IAMFullAccess"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: pergunta-3
+    attributes:
+      label: "3. Qual é a forma recomendada pela AWS para gerenciar permissões de usuários IAM?"
+      options:
+        - "Anexar políticas de permissão diretamente a cada usuário"
+        - "Compartilhar as credenciais do usuário root entre a equipe"
+        - "Criar uma role individual para cada serviço acessado"
+        - "Adicionar usuários a grupos que já possuem as políticas necessárias"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: pergunta-4
+    attributes:
+      label: "4. Durante a limpeza dos recursos, qual é a ordem correta para excluir o usuário e o grupo IAM?"
+      options:
+        - "Excluir o grupo primeiro, depois o usuário"
+        - "Excluir ambos simultaneamente pelo IAM Dashboard"
+        - "Excluir o usuário primeiro, depois o grupo"
+        - "Não é necessário excluir, pois o IAM é gratuito"
+    validations:
+      required: true
+
+  - type: textarea
+    id: pergunta-5
+    attributes:
+      label: "5. Explique com suas palavras por que o IAM é considerado um serviço global na AWS e qual a vantagem de usar grupos para organizar permissões ao invés de configurar cada usuário individualmente."
+      placeholder: "Explique com suas palavras..."
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        > **Dica:** Revise o lab antes de responder. O objetivo é fixar o aprendizado, não decorar comandos.
