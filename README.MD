@@ -122,11 +122,12 @@ A Azure oferece **65+ servicos sempre gratuitos**, alem de servicos gratuitos po
 
 ## Labs Disponíveis
 
-| #  | Lab | Cloud |
-|----|-----|-------|
-| — | *Em breve* | — |
+### Azure — Básico
 
-> Os labs serão adicionados conforme forem criados. Fique de olho!
+| #  | Lab | Descrição |
+|----|-----|-----------|
+| 01 | [Criar um Resource Group pelo Portal Azure](labs/azure/basico/01-criando-resource-group/README.md) | Crie seu primeiro grupo de recursos usando o Portal Azure |
+| 02 | [Criar uma Storage Account pelo Portal Azure](labs/azure/basico/02-criando-storage-account/README.md) | Crie sua primeira conta de armazenamento usando o Portal Azure |
 
 ---
 
