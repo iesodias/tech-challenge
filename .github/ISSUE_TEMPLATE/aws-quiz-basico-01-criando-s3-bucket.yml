@@ -1,6 +1,6 @@
-name: "Quiz - Lab 01: Criar um Bucket S3 pelo Console AWS"
+name: "[AWS] Quiz - Lab 01: Criar um Bucket S3 pelo Console AWS"
 description: "Responda às perguntas sobre o lab: Criar um Bucket S3 pelo Console AWS"
-title: "[Quiz] Lab 01 - Bucket S3"
+title: "[AWS][Quiz] Lab 01 - Bucket S3"
 labels: ["quiz", "aws-basico"]
 body:
   - type: markdown

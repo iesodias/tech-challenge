@@ -1,6 +1,6 @@
-name: "Quiz - Lab 02: Criar um Usuário e Grupo IAM pelo Console AWS"
+name: "[AWS] Quiz - Lab 02: Criar um Usuário e Grupo IAM pelo Console AWS"
 description: "Responda às perguntas sobre o lab: Criar um Usuário e Grupo IAM pelo Console AWS"
-title: "[Quiz] Lab 02 - IAM User e Grupo"
+title: "[AWS][Quiz] Lab 02 - IAM User e Grupo"
 labels: ["quiz", "aws-basico"]
 body:
   - type: markdown

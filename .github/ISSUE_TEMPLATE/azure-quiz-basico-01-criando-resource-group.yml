@@ -1,6 +1,6 @@
-name: "Quiz - Lab 01: Criar um Resource Group pelo Portal Azure"
+name: "[Azure] Quiz - Lab 01: Criar um Resource Group pelo Portal Azure"
 description: "Responda às perguntas sobre o lab: Criar um Resource Group pelo Portal Azure"
-title: "[Quiz] Lab 01 - Resource Group"
+title: "[Azure][Quiz] Lab 01 - Resource Group"
 labels: ["quiz", "azure-basico"]
 body:
   - type: markdown

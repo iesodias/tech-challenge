@@ -1,6 +1,6 @@
-name: "Quiz - Lab 02: Criar uma Storage Account pelo Portal Azure"
+name: "[Azure] Quiz - Lab 02: Criar uma Storage Account pelo Portal Azure"
 description: "Responda às perguntas sobre o lab: Criar uma Storage Account pelo Portal Azure"
-title: "[Quiz] Lab 02 - Storage Account"
+title: "[Azure][Quiz] Lab 02 - Storage Account"
 labels: ["quiz", "azure-basico"]
 body:
   - type: markdown

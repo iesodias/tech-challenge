@@ -1,6 +1,6 @@
-name: "Quiz - Lab 01: Criar uma Virtual Machine pelo Portal Azure"
+name: "[Azure] Quiz - Lab 01: Criar uma Virtual Machine pelo Portal Azure"
 description: "Responda às perguntas sobre o lab: Criar uma Virtual Machine pelo Portal Azure"
-title: "[Quiz] Lab 01 - Virtual Machine"
+title: "[Azure][Quiz] Lab 01 - Virtual Machine"
 labels: ["quiz", "azure-intermediario"]
 body:
   - type: markdown
