@@ -1,0 +1,97 @@
+# template/QUIZ-TEMPLATE.yml
+#
+# Template para criação de quizzes (GitHub Issue Forms) vinculados aos labs.
+# O agente quiz-generator deve usar este template como base.
+#
+# Estrutura de pastas para os quizzes gerados:
+#   .github/ISSUE_TEMPLATE/quiz-{cloud}-{nivel}-{numero}-{nome}.yml
+#
+# Exemplo:
+#   .github/ISSUE_TEMPLATE/quiz-azure-basico-01-criando-resource-group.yml
+
+name: "Quiz - Lab {{LAB_NUMBER}}: {{LAB_TITLE}}"
+description: "Responda às perguntas sobre o lab: {{LAB_TITLE}}"
+title: "[Quiz] Lab {{LAB_NUMBER}} - {{SHORT_TITLE}}"
+labels: ["quiz", "{{CLOUD}}-{{LEVEL}}"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Quiz — {{LAB_TITLE}}
+
+        Responda às perguntas abaixo com base no que você aprendeu no lab.
+        📖 [Acesse o lab aqui]({{LAB_RELATIVE_PATH}})
+
+  - type: input
+    id: nome-aluno
+    attributes:
+      label: Seu nome (ou usuário GitHub)
+      placeholder: "Ex: João Silva"
+    validations:
+      required: true
+
+  # {{QUESTIONS}}
+  #
+  # Regras para as perguntas:
+  #
+  # 1. Mínimo 3, máximo 6 perguntas por quiz
+  # 2. Use "dropdown" para perguntas objetivas (múltipla escolha)
+  # 3. Use "textarea" para perguntas dissertativas (máximo 1 por quiz)
+  # 4. Sempre inclua pelo menos 1 pergunta sobre o comando/ação principal do lab
+  # 5. Sempre inclua pelo menos 1 pergunta sobre flags/parâmetros/configurações
+  # 6. Sempre inclua pelo menos 1 pergunta sobre o passo de limpeza
+  # 7. As opções erradas devem ser plausíveis (não absurdas)
+  # 8. O id de cada pergunta deve seguir o padrão: pergunta-N (ex: pergunta-1)
+  #
+  # Formato de pergunta objetiva (dropdown):
+  #
+  # - type: dropdown
+  #   id: pergunta-N
+  #   attributes:
+  #     label: "N. {{QUESTION_TEXT}}"
+  #     options:
+  #       - "{{OPTION_A}}"
+  #       - "{{OPTION_B}}"
+  #       - "{{OPTION_C}}"
+  #       - "{{OPTION_D}}"
+  #   validations:
+  #     required: true
+  #
+  # Formato de pergunta dissertativa (textarea):
+  #
+  # - type: textarea
+  #   id: pergunta-N
+  #   attributes:
+  #     label: "N. {{QUESTION_TEXT}}"
+  #     placeholder: "Explique com suas palavras..."
+  #   validations:
+  #     required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        > **Dica:** Revise o lab antes de responder. O objetivo é fixar o aprendizado, não decorar comandos.
+
+# ============================================================
+# INSTRUÇÕES PARA O AGENTE quiz-generator:
+#
+# Placeholders obrigatórios:
+#   {{LAB_NUMBER}}        — Número do lab com 2 dígitos (ex: "01")
+#   {{LAB_TITLE}}         — Título completo do lab (ex: "Criar um Resource Group pelo Portal Azure")
+#   {{SHORT_TITLE}}       — Título curto para a issue (ex: "Resource Group")
+#   {{CLOUD}}             — Cloud provider lowercase (ex: "azure", "aws")
+#   {{LEVEL}}             — Nível lowercase (ex: "basico", "intermediario")
+#   {{LAB_RELATIVE_PATH}} — Caminho relativo para o lab (ex: "labs/azure/basico/01-criando-resource-group/README.md")
+#   {{QUESTIONS}}         — Bloco de perguntas seguindo os formatos acima
+#
+# Regras:
+#   1. Ler o lab antes de gerar as perguntas
+#   2. As perguntas devem ser baseadas exclusivamente no conteúdo do lab
+#   3. Mínimo 3 perguntas, máximo 6 perguntas
+#   4. Pelo menos 2 perguntas objetivas (dropdown) e no máximo 1 dissertativa (textarea)
+#   5. A resposta correta nas perguntas objetivas NÃO deve ser sempre a primeira opção
+#   6. Variar a posição da resposta correta entre as opções
+#   7. Arquivo gerado em: .github/ISSUE_TEMPLATE/quiz-{cloud}-{nivel}-{numero}-{nome}.yml
+#   8. Idioma: Português (pt-BR)
+# ============================================================

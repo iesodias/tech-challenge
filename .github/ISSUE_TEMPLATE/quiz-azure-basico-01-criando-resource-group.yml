@@ -1,0 +1,94 @@
+name: "Quiz - Lab 01: Criar um Resource Group pelo Portal Azure"
+description: "Responda às perguntas sobre o lab: Criar um Resource Group pelo Portal Azure"
+title: "[Quiz] Lab 01 - Resource Group"
+labels: ["quiz", "azure-basico"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Quiz — Criar um Resource Group pelo Portal Azure
+
+        Responda às perguntas abaixo com base no que você aprendeu no lab.
+        📖 [Acesse o lab aqui](labs/azure/basico/01-criando-resource-group/README.md)
+
+  - type: input
+    id: nome-aluno
+    attributes:
+      label: Seu nome (ou usuário GitHub)
+      placeholder: "Ex: João Silva"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: pergunta-1
+    attributes:
+      label: "1. O que é um Resource Group no Azure?"
+      options:
+        - "Um tipo de máquina virtual gerenciada"
+        - "Um serviço de banco de dados relacional"
+        - "Um contêiner lógico que agrupa recursos relacionados"
+        - "Uma ferramenta de monitoramento de custos"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: pergunta-2
+    attributes:
+      label: "2. Qual região foi utilizada no lab para criar o Resource Group?"
+      options:
+        - "East US"
+        - "Brazil South"
+        - "West Europe"
+        - "Central US"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: pergunta-3
+    attributes:
+      label: "3. Para que servem as Tags em recursos do Azure?"
+      options:
+        - "Para criptografar os dados do recurso"
+        - "Para definir permissões de acesso (RBAC)"
+        - "Para fazer backup automático dos recursos"
+        - "Para organizar recursos e facilitar a gestão de custos"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: pergunta-4
+    attributes:
+      label: "4. O que acontece com os recursos dentro de um Resource Group quando ele é excluído?"
+      options:
+        - "Eles são movidos automaticamente para outro Resource Group"
+        - "Nada acontece, eles continuam existindo de forma independente"
+        - "Eles são arquivados por 30 dias antes da exclusão definitiva"
+        - "Todos são excluídos automaticamente junto com o grupo"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: pergunta-5
+    attributes:
+      label: "5. O que a região (Region) do Resource Group define?"
+      options:
+        - "A região onde os recursos dentro do grupo serão obrigatoriamente criados"
+        - "O idioma padrão do Portal Azure para esse grupo"
+        - "Onde os metadados do Resource Group serão armazenados"
+        - "A moeda utilizada na cobrança dos recursos do grupo"
+    validations:
+      required: true
+
+  - type: textarea
+    id: pergunta-6
+    attributes:
+      label: "6. Por que é importante sempre executar o passo de limpeza ao final de um lab?"
+      placeholder: "Explique com suas palavras..."
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        > **Dica:** Revise o lab antes de responder. O objetivo é fixar o aprendizado, não decorar comandos.

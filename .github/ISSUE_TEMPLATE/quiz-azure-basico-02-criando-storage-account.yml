@@ -1,0 +1,94 @@
+name: "Quiz - Lab 02: Criar uma Storage Account pelo Portal Azure"
+description: "Responda às perguntas sobre o lab: Criar uma Storage Account pelo Portal Azure"
+title: "[Quiz] Lab 02 - Storage Account"
+labels: ["quiz", "azure-basico"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Quiz — Criar uma Storage Account pelo Portal Azure
+
+        Responda às perguntas abaixo com base no que você aprendeu no lab.
+        📖 [Acesse o lab aqui](labs/azure/basico/02-criando-storage-account/README.md)
+
+  - type: input
+    id: nome-aluno
+    attributes:
+      label: Seu nome (ou usuário GitHub)
+      placeholder: "Ex: João Silva"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: pergunta-1
+    attributes:
+      label: "1. Quais tipos de armazenamento uma Storage Account suporta?"
+      options:
+        - "Apenas Blob Storage e File Storage"
+        - "Blob Storage, File Storage, Queue Storage e Table Storage"
+        - "Apenas Blob Storage e Table Storage"
+        - "Blob Storage, File Storage e Cosmos DB"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: pergunta-2
+    attributes:
+      label: "2. Qual restrição se aplica ao nome de uma Storage Account?"
+      options:
+        - "Deve ter entre 5 e 50 caracteres e aceita hífens"
+        - "Deve ser único na assinatura e aceita caracteres especiais"
+        - "Deve ser globalmente único, ter entre 3 e 24 caracteres, e usar apenas letras minúsculas e números"
+        - "Deve começar com um número e ter no máximo 16 caracteres"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: pergunta-3
+    attributes:
+      label: "3. O que significa a redundância LRS (Locally-redundant storage) selecionada no lab?"
+      options:
+        - "Os dados são replicados para outra região geográfica"
+        - "Os dados são replicados entre duas zonas de disponibilidade"
+        - "Os dados são armazenados sem nenhuma redundância"
+        - "Os dados são mantidos em 3 cópias no mesmo data center"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: pergunta-4
+    attributes:
+      label: "4. Qual a diferença entre os níveis de desempenho Standard e Premium?"
+      options:
+        - "Standard usa discos SSD e Premium usa discos HDD"
+        - "Standard é gratuito e Premium é pago"
+        - "Standard usa discos HDD e é para a maioria dos cenários; Premium usa discos SSD e é para baixa latência"
+        - "Standard permite apenas Blob Storage e Premium permite todos os tipos"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: pergunta-5
+    attributes:
+      label: "5. O que acontece ao excluir uma Storage Account?"
+      options:
+        - "Os dados ficam em quarentena por 90 dias antes da exclusão"
+        - "Apenas os containers são removidos, mas os blobs são mantidos"
+        - "Todos os dados armazenados (blobs, arquivos, filas e tabelas) são permanentemente removidos"
+        - "Os dados são automaticamente migrados para outra Storage Account"
+    validations:
+      required: true
+
+  - type: textarea
+    id: pergunta-6
+    attributes:
+      label: "6. Por que o nome da Storage Account precisa ser globalmente único no Azure?"
+      placeholder: "Explique com suas palavras..."
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        > **Dica:** Revise o lab antes de responder. O objetivo é fixar o aprendizado, não decorar comandos.
