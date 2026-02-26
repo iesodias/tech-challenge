@@ -1,0 +1,94 @@
+name: "[Azure] Quiz - Lab 03: Instalar e Configurar o Azure CLI"
+description: "Responda às perguntas sobre o lab: Instalar e Configurar o Azure CLI"
+title: "[Azure][Quiz] Lab 03 - Azure CLI"
+labels: ["quiz", "azure-basico"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Quiz — Instalar e Configurar o Azure CLI
+
+        Responda às perguntas abaixo com base no que você aprendeu no lab.
+        📖 [Acesse o lab aqui](labs/azure/basico/03-instalando-azure-cli/README.md)
+
+  - type: input
+    id: nome-aluno
+    attributes:
+      label: Seu nome (ou usuário GitHub)
+      placeholder: "Ex: João Silva"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: pergunta-1
+    attributes:
+      label: "1. Qual comando é usado para verificar se o Azure CLI foi instalado corretamente?"
+      options:
+        - "az --help"
+        - "azure version"
+        - "az --version"
+        - "az check"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: pergunta-2
+    attributes:
+      label: "2. O que o comando `az login` faz por padrão?"
+      options:
+        - "Cria uma nova conta Azure automaticamente"
+        - "Abre o navegador padrão para autenticação interativa na conta Microsoft Azure"
+        - "Autentica usando as variáveis de ambiente sem abrir o navegador"
+        - "Solicita usuário e senha diretamente no terminal"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: pergunta-3
+    attributes:
+      label: "3. Qual flag do comando `az account list` formata a saída em uma tabela legível?"
+      options:
+        - "--format table"
+        - "--display table"
+        - "--output table"
+        - "--table"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: pergunta-4
+    attributes:
+      label: "4. Qual comando define a assinatura padrão a ser usada nos comandos seguintes?"
+      options:
+        - "az account use --subscription \"<ID>\""
+        - "az account set --subscription \"<ID>\""
+        - "az account default --id \"<ID>\""
+        - "az login --subscription \"<ID>\""
+    validations:
+      required: true
+
+  - type: dropdown
+    id: pergunta-5
+    attributes:
+      label: "5. Qual o comando correto para encerrar a sessão autenticada no Azure CLI (limpeza)?"
+      options:
+        - "az login --out"
+        - "az account clear"
+        - "az exit"
+        - "az logout"
+    validations:
+      required: true
+
+  - type: textarea
+    id: pergunta-6
+    attributes:
+      label: "6. Em ambientes sem interface gráfica, como você faria o login no Azure CLI? Explique o comando e por que ele é necessário nesse cenário."
+      placeholder: "Explique com suas palavras..."
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        > **Dica:** Revise o lab antes de responder. O objetivo é fixar o aprendizado, não decorar comandos.

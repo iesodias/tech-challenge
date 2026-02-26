@@ -1,0 +1,86 @@
+name: "Quiz - Lab 03: Instalar e Configurar o AWS CLI"
+description: "Responda às perguntas sobre o lab: Instalar e Configurar o AWS CLI"
+title: "[Quiz] Lab 03 - AWS CLI"
+labels: ["quiz", "aws-basico"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Quiz — Instalar e Configurar o AWS CLI
+
+        Responda às perguntas abaixo com base no que você aprendeu no lab.
+        📖 [Acesse o lab aqui](labs/aws/basico/03-instalando-aws-cli/README.md)
+
+  - type: input
+    id: nome-aluno
+    attributes:
+      label: Seu nome (ou usuário GitHub)
+      placeholder: "Ex: João Silva"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: pergunta-1
+    attributes:
+      label: "1. Qual comando é utilizado para verificar se o AWS CLI foi instalado corretamente e exibir sua versão?"
+      options:
+        - "aws --help"
+        - "aws --version"
+        - "aws version check"
+        - "aws cli --info"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: pergunta-2
+    attributes:
+      label: "2. Qual comando inicia o assistente interativo para configurar as credenciais do AWS CLI?"
+      options:
+        - "aws setup"
+        - "aws init"
+        - "aws configure"
+        - "aws credentials set"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: pergunta-3
+    attributes:
+      label: "3. Após executar `aws configure`, onde o AWS CLI salva as credenciais (Access Key ID e Secret Access Key)?"
+      options:
+        - "~/.aws/config"
+        - "/etc/aws/credentials"
+        - "~/.aws/credentials"
+        - "~/.config/aws/keys"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: pergunta-4
+    attributes:
+      label: "4. Qual comando é usado para validar com qual conta e usuário o AWS CLI está operando?"
+      options:
+        - "aws iam whoami"
+        - "aws sts get-caller-identity"
+        - "aws account describe"
+        - "aws iam get-user"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: pergunta-5
+    attributes:
+      label: "5. Qual comando lista todos os buckets S3 disponíveis na conta AWS autenticada?"
+      options:
+        - "aws s3 list"
+        - "aws s3api list-buckets"
+        - "aws storage ls"
+        - "aws s3 ls"
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        > **Dica:** Revise o lab antes de responder. O objetivo é fixar o aprendizado, não decorar comandos.

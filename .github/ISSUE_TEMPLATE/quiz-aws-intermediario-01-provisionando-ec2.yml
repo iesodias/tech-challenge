@@ -1,0 +1,86 @@
+name: "Quiz - Lab 01: Provisionar uma Instância EC2 com AWS CLI"
+description: "Responda às perguntas sobre o lab: Provisionar uma Instância EC2 com AWS CLI"
+title: "[Quiz] Lab 01 - Provisionando EC2"
+labels: ["quiz", "aws-intermediario"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Quiz — Provisionar uma Instância EC2 com AWS CLI
+
+        Responda às perguntas abaixo com base no que você aprendeu no lab.
+        📖 [Acesse o lab aqui](labs/aws/intermediario/01-provisionando-ec2/README.md)
+
+  - type: input
+    id: nome-aluno
+    attributes:
+      label: Seu nome (ou usuário GitHub)
+      placeholder: "Ex: João Silva"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: pergunta-1
+    attributes:
+      label: "1. Qual serviço da AWS é utilizado no lab para obter o ID da AMI mais recente do Amazon Linux 2023?"
+      options:
+        - "a) AWS CloudFormation"
+        - "b) AWS EC2 Image Builder"
+        - "c) AWS Systems Manager Parameter Store"
+        - "d) AWS Marketplace"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: pergunta-2
+    attributes:
+      label: "2. Qual comando é utilizado para restringir as permissões do arquivo da chave privada após criá-lo, e por que isso é necessário?"
+      options:
+        - "a) chmod 777 — para permitir que qualquer processo leia a chave"
+        - "b) chmod 644 — para que o grupo também possa ler o arquivo"
+        - "c) chmod 600 — para permitir leitura e escrita apenas pelo proprietário"
+        - "d) chmod 400 — para somente leitura pelo proprietário, requisito obrigatório do SSH"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: pergunta-3
+    attributes:
+      label: "3. No passo de criação da regra de entrada no Security Group, qual protocolo e porta são configurados para permitir acesso SSH?"
+      options:
+        - "a) Protocolo TCP na porta 22"
+        - "b) Protocolo UDP na porta 22"
+        - "c) Protocolo TCP na porta 443"
+        - "d) Protocolo TCP na porta 80"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: pergunta-4
+    attributes:
+      label: "4. Qual tipo de instância EC2 é utilizado no lab por ser elegível ao Free Tier da AWS?"
+      options:
+        - "a) t3.micro"
+        - "b) t2.small"
+        - "c) t3.nano"
+        - "d) t2.micro"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: pergunta-5
+    attributes:
+      label: "5. Por que o comando `aws ec2 wait instance-terminated` é executado antes de excluir o Security Group durante a limpeza?"
+      options:
+        - "a) Porque é necessário aguardar a liberação do endereço IP público"
+        - "b) Porque o security group só pode ser excluído após a instância ser completamente terminada"
+        - "c) Porque o key pair precisa ser removido antes do security group"
+        - "d) Porque a AWS exige um tempo mínimo de espera entre exclusões de recursos"
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        > **Dica:** Revise o lab antes de responder. O objetivo é fixar o aprendizado, não decorar comandos.
