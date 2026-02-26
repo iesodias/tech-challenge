@@ -2,8 +2,8 @@
 
 # Tech Challenge — Labs Práticos de Cloud
 
-![Labs](https://img.shields.io/badge/Labs-5-blue?style=for-the-badge)
-![Quizzes](https://img.shields.io/badge/Quizzes-5-purple?style=for-the-badge)
+![Labs](https://img.shields.io/badge/Labs-8-blue?style=for-the-badge)
+![Quizzes](https://img.shields.io/badge/Quizzes-8-purple?style=for-the-badge)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=for-the-badge)
@@ -44,13 +44,17 @@ Cada lab segue um formato padronizado:
 ```
 labs/
 ├── aws/
-│   └── basico/
-│       ├── 01-criando-s3-bucket/
-│       └── 02-criando-iam-user-e-grupo/
+│   ├── basico/
+│   │   ├── 01-criando-s3-bucket/
+│   │   ├── 02-criando-iam-user-e-grupo/
+│   │   └── 03-instalando-aws-cli/
+│   └── intermediario/
+│       └── 01-provisionando-ec2/
 └── azure/
     ├── basico/
     │   ├── 01-criando-resource-group/
-    │   └── 02-criando-storage-account/
+    │   ├── 02-criando-storage-account/
+    │   └── 03-instalando-azure-cli/
     └── intermediario/
         └── 01-criando-virtual-machine/
 ```
@@ -156,6 +160,15 @@ Cada lab inclui um **material de estudo** e um **quiz** para fixar o conteúdo.
 |---|-----|----------|------|
 | 01 | [Criar um Bucket S3 pelo Console AWS](labs/aws/basico/01-criando-s3-bucket/README.md) | [Material](labs/aws/basico/01-criando-s3-bucket/MATERIAL.md) | [Quiz](.github/ISSUE_TEMPLATE/aws-quiz-basico-01-criando-s3-bucket.yml) |
 | 02 | [Criar um Usuário e Grupo IAM pelo Console AWS](labs/aws/basico/02-criando-iam-user-e-grupo/README.md) | [Material](labs/aws/basico/02-criando-iam-user-e-grupo/MATERIAL.md) | [Quiz](.github/ISSUE_TEMPLATE/aws-quiz-basico-02-criando-iam-user-e-grupo.yml) |
+| 03 | [Instalar e Configurar o AWS CLI](labs/aws/basico/03-instalando-aws-cli/README.md) | [Material](labs/aws/basico/03-instalando-aws-cli/MATERIAL.md) | [Quiz](.github/ISSUE_TEMPLATE/quiz-aws-03-instalando-aws-cli.yml) |
+
+---
+
+### AWS — Intermediário
+
+| # | Lab | Material | Quiz |
+|---|-----|----------|------|
+| 01 | [Provisionar uma Instância EC2 com AWS CLI](labs/aws/intermediario/01-provisionando-ec2/README.md) | [Material](labs/aws/intermediario/01-provisionando-ec2/MATERIAL.md) | [Quiz](.github/ISSUE_TEMPLATE/quiz-aws-intermediario-01-provisionando-ec2.yml) |
 
 ---
 
@@ -165,6 +178,7 @@ Cada lab inclui um **material de estudo** e um **quiz** para fixar o conteúdo.
 |---|-----|----------|------|
 | 01 | [Criar um Resource Group pelo Portal Azure](labs/azure/basico/01-criando-resource-group/README.md) | [Material](labs/azure/basico/01-criando-resource-group/MATERIAL.md) | [Quiz](.github/ISSUE_TEMPLATE/azure-quiz-basico-01-criando-resource-group.yml) |
 | 02 | [Criar uma Storage Account pelo Portal Azure](labs/azure/basico/02-criando-storage-account/README.md) | [Material](labs/azure/basico/02-criando-storage-account/MATERIAL.md) | [Quiz](.github/ISSUE_TEMPLATE/azure-quiz-basico-02-criando-storage-account.yml) |
+| 03 | [Instalar e Configurar o Azure CLI](labs/azure/basico/03-instalando-azure-cli/README.md) | [Material](labs/azure/basico/03-instalando-azure-cli/MATERIAL.md) | [Quiz](.github/ISSUE_TEMPLATE/azure-quiz-basico-03-instalando-azure-cli.yml) |
 
 ---
 
